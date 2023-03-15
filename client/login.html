@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <h1>Login</h1>
+     
+    </head>
+<body>
+    <mat-card>
+        <mat-card-actions>
+            <mat-form-field appearance="outline">
+                <mat-label>User</mat-label>
+                <br>
+                <input matInput placeholder="User">
+              </mat-form-field>
+<br><br>
+              <mat-form-field appearance="fill">
+                <mat-label>Password</mat-label>
+                <br>
+                <input [type]="hide ? 'password' : 'text'" placeholder="Password">
+              </mat-form-field>
+
+              <input type="button" onclick="location.href='index.html'" value="Login" />
+        </mat-card-actions>
+      </mat-card>
+</body>
+</html>

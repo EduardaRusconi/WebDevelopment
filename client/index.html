@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <h1>Cadastro</h1>
+ 
+</head>
+
+
+<body>
+    <mat-card>
+        <mat-card-actions>
+            <mat-form-field appearance="outline">
+                <mat-label>Name</mat-label>
+                <br>
+                <input matInput placeholder="Name">
+              </mat-form-field>
+<br><br>
+            <mat-form-field appearance="outline">
+                <mat-label>Address</mat-label>
+                 <br>
+                 <input matInput placeholder="Address">
+            </mat-form-field>
+<br><br>
+            <mat-form-field appearance="outline">
+                <mat-label>Phone number</mat-label>
+                 <br>
+                <input matInput placeholder="Phone number">
+            </mat-form-field>
+<br><br>
+              <mat-form-field appearance="fill">
+                <mat-label>Password</mat-label>
+                <br>
+                <input [type]="hide ? 'password' : 'text'" placeholder="Password">
+              </mat-form-field>
+<br><br>
+              <input type="button" onclick="location.href='web.html'" value="Cadastrar-me" />
+        </mat-card-actions>
+      </mat-card>
+</body>
+</html>
